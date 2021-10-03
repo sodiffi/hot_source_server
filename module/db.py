@@ -19,10 +19,10 @@ class DB():
     def delete(self):
         return 3
 
-    __host = 'fet.mysql.database.azure.com'
-    __user = 'adadadmin'
+    __host = '140.131.114.148'
+    __user = 'newuser'
     __dbname = 'nasa'
-    __password = 'adadMinad9'
+    __password = '123456'
     __conn = None
 
     @staticmethod
@@ -64,6 +64,8 @@ class DB():
 
         except Error as e:
             print("資料庫連接失敗：", e)
-            cursor.close()
-            connection.close()
-            return {"success": False, "data": e}
+            # print(cursor)
+            # cursor.close()
+            # connection.close()
+            print(e)
+            return {"success": False, "data": str(e)}
