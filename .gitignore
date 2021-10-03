@@ -11,3 +11,4 @@ venv/
 
 Web.config
 *.log
+data/
