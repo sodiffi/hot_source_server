@@ -7,6 +7,7 @@ CONTENTS OF THIS FILE
 
 - [Background](#Background)
 - [Install](#Install)
+- [Usage](#Usage)
 
 
 ## Background
@@ -35,3 +36,6 @@ Click the green Clone, then press Download. The selected files will be downloade
  * [numpy](https://pypi.org/project/numpy/)
  * [netCDF4](https://pypi.org/project/netCDF4/)
  * [matplotlib](https://pypi.org/project/matplotlib/)
+ * [heat_index](https://pypi.org/project/heat-index/)
+## Uusage
+Make sure the python environment and packages needed are all installed and set up. Follow the instructions on [flask documents](https://flask.palletsprojects.com/en/2.0.x/quickstart/), then you can see the server running on your computer.
